@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  min-width: 1000px;
+  color: #555; }
+
+.container {
+  margin: auto;
+  max-width: 960px; }
+
+.page_h {
+  text-align: center; }
+
+.header .container {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.header_registration ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0; }
+  .header_registration ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px; }
+    .header_registration ul li:last-child {
+      margin-right: 0; }
+
+.header a {
+  display: block;
+  padding: 5px 10px; }
+
+.registration_h {
+  text-align: center; }
+
+.registration_form {
+  width: 300px;
+  margin: auto; }
+  .registration_form div {
+    margin-bottom: 15px; }
+  .registration_form label {
+    display: block; }
+  .registration_form input,
+  .registration_form select,
+  .registration_form button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    outline: none; }
+  .registration_form button {
+    cursor: pointer; }
+
+.success_msg {
+  text-align: center;
+  color: #44C23CFF; }
+
+.error_msg {
+  font-size: 14px;
+  color: red; }
+
+.user_table_h, .user_table_row {
+  font-size: 0;
+  border: 1px solid #555;
+  border-bottom: none; }
+  .user_table_h_item, .user_table_row_item {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    border-left: 1px solid #555;
+    min-height: 22px; }
+    .user_table_h_item.number, .user_table_row_item.number {
+      width: 10%;
+      border-left: none; }
+    .user_table_h_item.first_name, .user_table_row_item.first_name {
+      width: 30%; }
+      .user_table_h_item.first_name.link, .user_table_row_item.first_name.link {
+        color: #F82646FF;
+        display: inline-block; }
+    .user_table_h_item.last_name, .user_table_row_item.last_name {
+      width: 30%; }
+    .user_table_h_item.country, .user_table_row_item.country {
+      width: 30%; }
+
+.user_table_row {
+  display: block; }
+  .user_table_row:last-child {
+    border-bottom: 1px solid #555; }
+
+.user_info {
+  padding-left: 20px;
+  padding-top: 10px; }
+  .user_info_block {
+    margin-bottom: 10px; }
+    .user_info_block .headline {
+      color: #CCCCCCFF;
+      font-size: 18px; }
+    .user_info_block .data {
+      color: #555;
+      font-size: 22px; }
+
+/*# sourceMappingURL=style.css.map */
